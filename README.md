@@ -44,10 +44,6 @@ Jetbrain Pycharm Community IDE 自动生成文件夹
 
 本项目建议新建一个 `anaconda` 虚拟环境使用 (python >= 3.8)
 
-- 2. 运行可执行文件
-
-本项目还提供了 Windows 10(或以上) amd x86_64 系统的可执行文件, 仅需双击启动可执行文件即可使用.
-
 ---
 
 ## 搭建环境
@@ -60,14 +56,11 @@ Jetbrain Pycharm Community IDE 自动生成文件夹
 
 - `pip install qt-material`
 
----
+### Note: Graphviz is required.
 
-## 可执行文件
+- `pip install graphviz`
 
-1. 双击 program_this.exe(该文件为 rar软件创建的自解压文件)将项目解压至任意文件夹(上级目录至本目录中不含`program_this`的路径)
-2. 在解压后的文件夹中打开名为`main`的文件夹
-3. 双击运行 program_this/main/main.exe
-
+- `pip install pycallgraph`
 
 ---
 
